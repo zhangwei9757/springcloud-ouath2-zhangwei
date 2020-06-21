@@ -27,12 +27,12 @@ public class ResourceController {
         return "resource server...";
     }
 
-    @GetMapping("/userInfo")
+    @GetMapping("/user")
     public Authentication user(Authentication authentication) {
         return authentication;
     }
 
-    @GetMapping(value = "/user")
+    @GetMapping(value = "/userInfo")
     public Principal userInfo(ServletRequest req) throws IOException {
         final HttpServletRequest request = (HttpServletRequest) req;
         BearerTokenExtractor tokenExtractor = new BearerTokenExtractor();
