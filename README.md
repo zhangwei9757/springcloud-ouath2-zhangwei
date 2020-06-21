@@ -655,7 +655,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiemhhbmd3Z
 ```
 
 
-
-
+## 授权服务器，资源服务器，授权资源二合一服务器，基于jdbc方式见代码，sql见/resource/目录下 
 
 ## 持续更新中 ..... 
